@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{titling}
+
+
+\pretitle{ \centering \small  \noindent\includegraphics[width = .5\linewidth]{University_of_Moratuwa_logo.png}\\[\bigskipamount] }
+\posttitle{}
+
+\newcommand{\nameentry}[3]{
+\fontsize{10pt}{12pt}\textbf{#1} \\ #2 \\ \textit{#3} \\
+}
+
+\newcommand{\groupname}{\textbf{Group 1}}
+\newcommand{\shorttitle}{Reinforcement Learning}
+
+\newcommand{\longtitle}{Lab Report}
+
+\author{
+    \begin{tabular}{c}
+    % \textbf{person1} & \textbf{person2} \\
+    \nameentry{SATHIYENDRA T.J.}{200590J}{joel.20@cse.mrt.ac.lk}
+    \\
+    \nameentry{RUPASINGHE R.A.M.T.}{200546G}{.20@cse.mrt.ac.lk}
+    \end{tabular}
+    \and
+    \begin{tabular}{c}
+    \nameentry{WARNAKULASURIYA A.K}{200694G}{.20@cse.mrt.ac.lk}
+    \\
+    \nameentry{ROVIN K.Y.K.}{200543U}{.20@cse.mrt.ac.lk}
+    \end{tabular}
+}
+
+\date{\vspace{\bigskipamount}\today}
+
+
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\groupname}
+\lhead{\shorttitle}
+\cfoot{\thepage}
+
+\title{\groupname\\\large \longtitle\ - \shorttitle\\}
+
+
+\begin{document}
+
+
+\pagenumbering{Alph}
+
+\begin{titlingpage}
+    \centering \maketitle
+\end{titlingpage}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+\section*{Introduction}
+\section*{Taxi Environment \& Q Learning}
+\section*{Convergence with change of learning rate $\alpha $}
+\section*{Convergence with change of discount rate $\gamma $}
+
+\end{document}
