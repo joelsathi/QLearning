@@ -1,68 +1,61 @@
-\documentclass[12pt]{article}
-\usepackage[utf8]{inputenc}
-
-\usepackage{fancyhdr}
+\documentclass[11pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{titling}
-
-
-\pretitle{ \centering \small  \noindent\includegraphics[width = .5\linewidth]{University_of_Moratuwa_logo.png}\\[\bigskipamount] }
-\posttitle{}
-
-\newcommand{\nameentry}[3]{
-\fontsize{10pt}{12pt}\textbf{#1} \\ #2 \\ \textit{#3} \\
-}
-
-\newcommand{\groupname}{\textbf{Group 1}}
-\newcommand{\shorttitle}{Reinforcement Learning}
-
-\newcommand{\longtitle}{Lab Report}
-
-\author{
-    \begin{tabular}{c}
-    % \textbf{person1} & \textbf{person2} \\
-    \nameentry{SATHIYENDRA T.J.}{200590J}{joel.20@cse.mrt.ac.lk}
-    \\
-    \nameentry{RUPASINGHE R.A.M.T.}{200546G}{.20@cse.mrt.ac.lk}
-    \end{tabular}
-    \and
-    \begin{tabular}{c}
-    \nameentry{WARNAKULASURIYA A.K}{200694G}{.20@cse.mrt.ac.lk}
-    \\
-    \nameentry{ROVIN K.Y.K.}{200543U}{.20@cse.mrt.ac.lk}
-    \end{tabular}
-}
-
-\date{\vspace{\bigskipamount}\today}
-
-
-\setlength{\headheight}{15pt}
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{\groupname}
-\lhead{\shorttitle}
-\cfoot{\thepage}
-
-\title{\groupname\\\large \longtitle\ - \shorttitle\\}
-
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{enumitem}
+\usepackage{listings}
+% \usepackage{filecontents}
+\usepackage{verbatim}
+\usepackage{eurosym}
+\usepackage[export]{adjustbox}
+ \usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
 
 \begin{document}
 
+\begin{titlepage}
 
-\pagenumbering{Alph}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
 
-\begin{titlingpage}
-    \centering \maketitle
-\end{titlingpage}
+\center 
 
-\pagenumbering{arabic}
-\setcounter{page}{1}
+\textsc{\LARGE University of Moratuwa}\\[1.5cm] 
 
+\textsc{\Large  B.Sc. (Hons) Computer Science \& Engineering}\\[0.5cm] 
+\textsc{\large CS3613 - Introduction to Artificial Intelligence}\\[0.5cm] 
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Lab - RL - Q-learning algorithm}\\[0.4cm] 
+
+\HRule \\[1.5cm]
+
+\textsc{\LARGE Group 6}\\[1.5cm] % Name of your university/college
+\noindent\begin{tabular}{@{}ll}
+    Group Members & 200590J: T. Joel Sathiyendra(SATHIYENDRA T.J.)\\
+    & 200546G: Minindu Thiranjaya(RUPASINGHE R.A.M.T.)  \\
+    & 200694G: A. Kavindu Warnakulasuriya(WARNAKULASURIYA AK) \\
+    & 200543U: K.Y. Kulindu Rovin(ROVIN K.Y.K.)  \\[.5cm]
+     Lecturer &  Dr. Thanuja Ambegoda\\[.5cm]
+\end{tabular}
+
+{\large \today}\\[2cm] 
+
+\includegraphics{CSE_logo.png}\\[1cm] 
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
 
 \section*{Introduction}
 \section*{Taxi Environment \& Q Learning}
 \section*{Convergence with change of learning rate $\alpha $}
-\section*{Convergence with change of discount rate $\gamma $}
+\section*{Convergence with change of discount rate $\gamma $}
 
 \end{document}
