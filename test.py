@@ -26,7 +26,7 @@ def q_learning(learning_rate:float, discount_rate:float):
     # breakpoint()
 
     # training variables
-    num_episodes = 10000
+    num_episodes = 1000
     max_steps = 200 # per episode prev 99
 
     # training
@@ -111,15 +111,15 @@ if __name__ == "__main__":
     scores = []
 
     for val in x:
-        cur, reward = q_learning(0.9, val)
+        cur, reward = q_learning(0.7, val)
         y.append(cur)
         scores.append(reward)
     
     # print(y)
     # print(len(y))
 
-    # plt.plot(x, y)
-    plt.plot(x, scores)
+    plt.plot(x, y, color='#000000')
+    # plt.plot(x, scores)
 
 
     plt.title("Discount rate vs  steps required for convergence")
