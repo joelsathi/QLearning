@@ -100,11 +100,11 @@ def main():
     print(f"Success rate in achieving the goal: {success_rate}")
 
     # plot number of steps vs number of episodes
-    plt.title("Number of steps to cvg vs number of episodes")
-    plt.plot(steps)
-    plt.xlabel("Episode")
-    plt.ylabel("Number of steps to cvg")
-    plt.show()
+    # plt.title("Number of steps to cvg vs number of episodes")
+    # plt.plot(steps, color='#6123fc')
+    # plt.xlabel("Episode")
+    # plt.ylabel("Number of steps to cvg")
+    # plt.show()
     
     
     # plot Q values values as y and iteration as x
@@ -112,9 +112,11 @@ def main():
     # plt.xlabel("Iteration")
     # plt.ylabel("Q Value")
     # plt.show()
+    
     # plot rewards
-    # plt.plot(rewards)
-    # plt.xlabel("Iteration")
+    # plt.title("Rewards at converge vs number of episodes")
+    # plt.plot(rewards, color='#24f053')
+    # plt.xlabel("Episode")
     # plt.ylabel("Reward")
     # plt.show()
 if __name__ == "__main__":
