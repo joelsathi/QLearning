@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1671897599 "d:/University/Academics_2020_3rd_Sem/1 Introduction to AI/Labs/QLearning/FinalReport/report.tex" "report.pdf" "report" 1671897600 0
+["pdflatex"] 1672043072 "d:/University/Academics_2020_3rd_Sem/1 Introduction to AI/Labs/QLearning/FinalReport/report.tex" "report.pdf" "report" 1672043074 0
   "C:/Users/Joel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1671897522 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/Joel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1671894434 23168135 4dbb31805a4518a494d3bec78b936f3f ""
   "C:/Users/Joel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -145,9 +145,9 @@
   "C:/Users/Joel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/Joel/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "CSE_logo.png" 1671897560 42686 3d9720c5c59d195a4c64fc03ad019180 ""
-  "d:/University/Academics_2020_3rd_Sem/1 Introduction to AI/Labs/QLearning/FinalReport/report.tex" 1671897598 1616 1c7ec553600aafc019877510afdb2c29 ""
-  "report.aux" 1671897600 149 5f476d0f8f400ec9dfd1fa85aefbfe39 "pdflatex"
-  "report.tex" 1671897598 1616 1c7ec553600aafc019877510afdb2c29 ""
+  "d:/University/Academics_2020_3rd_Sem/1 Introduction to AI/Labs/QLearning/FinalReport/report.tex" 1672043070 1622 7c0cb1c16a17999b5d8aad8b543af3a3 ""
+  "report.aux" 1672043073 149 5f476d0f8f400ec9dfd1fa85aefbfe39 "pdflatex"
+  "report.tex" 1672043070 1622 7c0cb1c16a17999b5d8aad8b543af3a3 ""
   (generated)
   "report.aux"
   "report.log"
